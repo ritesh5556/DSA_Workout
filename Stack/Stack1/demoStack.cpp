@@ -8,6 +8,7 @@ public:
     int top=-1;
 
     Stack(int size){
+
         arr = new int[size];
         this->size = size;
     }
@@ -35,7 +36,7 @@ public:
 
     int getSize(){
         if(top == -1){
-            cout<<"stack is empty"<<endl;
+            cout<<"stack is underflow"<<endl;
             return 0;
         }
         else{
