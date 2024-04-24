@@ -13,6 +13,7 @@ int main()
     q.push(50);
 
     cout << "The queue q is : ";
+    cout<<"this is chutiya";
     while (!q.empty())
     {
         cout << q.front() << " ";
